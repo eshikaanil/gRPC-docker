@@ -9,7 +9,7 @@ class UnaryClient(object):
     """
 
     def __init__(self):
-        self.host = 'localhost'
+        self.host = '1.2.4.120'
         self.server_port = 6443
 
         # instantiate a channel
