@@ -1,6 +1,7 @@
 # gRPC-docker
 
 Run the server and client scripts separately on different terminals:
+
 #1st terminal
 python3 unary_server.py
 
@@ -13,6 +14,7 @@ message: "Hello I am up and running received \"Hello Server you there?\" message
 received: true
 
 #dockerisation
+
 #1st terminal
 docker build -t img .
 docker run -p 127.0.0.1:6443:6443/tcp img
